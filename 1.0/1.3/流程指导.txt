@@ -1,0 +1,17 @@
+###环境配置（以windows系统为例）###
+1. 安装anaconda：
+	https://www.anaconda.com/download
+2. 安装python：建议python3.8及以上
+	例：conda create -n yourname python=3.9
+3. 安装库：
+	运行 cd mnist-master
+	运行 pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
+4. 运行数据加载代码：
+	将解压后的TrainingSet和TestSet放入./dataset/文件夹中
+	运行 python ./dataset/mnist.py
+	期望输出：
+		训练集: 图像形状 (60000, 1, 28, 28), 标签形状 (60000,)
+		测试集: 图像形状 (10000, 1, 28, 28), 标签形状 (10000,)
+		数据集加载成功!
+5. 运行训练代码：
+	运行 python ./train_convnet.py

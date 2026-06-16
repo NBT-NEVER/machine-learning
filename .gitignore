@@ -1,0 +1,37 @@
+__pycache__/
+*.py[cod]
+*.incomplete
+*.lock
+
+.ipynb_checkpoints/
+.cache/
+
+# 训练权重与参数快照
+best_model*
+*_best.pt
+best.pt
+best_diffusion_model.pth
+best_gan_model.pth
+gan_model_epoch_50.pth
+resnet18_saliency_best.pth
+modelpara.pth
+params.pkl
+deep_convnet_params.pkl
+best_model2.3.1.pth
+best_model2.3.2.pth
+best_model2.3.3.pth
+
+# 仅忽略权重文件，不忽略整个输出目录
+**/saved_models/*.pt
+**/saved_models/*.pth
+**/saved_models/*best*
+**/saved_models/vocab.pt
+
+# 自定义模型目录里仅保留结构，不提交现成权重
+**/自定义模型/*.pth
+
+# HuggingFace 下载缓存中的大权重不提交
+**/.cache/huggingface/download/
+
+# 训练记录中的参数快照
+**/recording/train_end/*.pkl

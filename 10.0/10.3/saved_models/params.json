@@ -1,0 +1,16 @@
+{
+  "train_path": "../data/train.csv",
+  "test_path": "../data/test.csv",
+  "sample_path": "../data/sample_submission.csv",
+  "out_path": "./out/submission.csv",
+  "embed_dim": 300,
+  "hidden_dim": 256,
+  "L2": 1e-05,
+  "batch_size": 32,
+  "epochs": 3,
+  "max_len": 900,
+  "lr": 0.000465,
+  "glove_path": "../data/glove.6B.300d.txt",
+  "seed": 42,
+  "vocab_size": 51118
+}

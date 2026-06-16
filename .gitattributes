@@ -1,0 +1,15 @@
+10.0/data/glove.6B.300d.txt filter=lfs diff=lfs merge=lfs -text
+11.0/data/glove.6B.300d.txt filter=lfs diff=lfs merge=lfs -text
+2.0/2.3/2-MedImage-TrainSet.zip filter=lfs diff=lfs merge=lfs -text
+2.0/2.3/2-MedImage-TestSet.zip filter=lfs diff=lfs merge=lfs -text
+3.0/3.1/3-Saliency-TrainSet.zip filter=lfs diff=lfs merge=lfs -text
+3.0/3.1/3-Saliency-TestSet.zip filter=lfs diff=lfs merge=lfs -text
+3.0/3.1/category.zip filter=lfs diff=lfs merge=lfs -text
+4.0/4.2GAN/cifar_images.zip filter=lfs diff=lfs merge=lfs -text
+4.0/4.2GAN/data/cifar-10-python.tar.gz filter=lfs diff=lfs merge=lfs -text
+4.0/4.2GAN/data/cifar-10-batches-py/data_batch_1 filter=lfs diff=lfs merge=lfs -text
+4.0/4.2GAN/data/cifar-10-batches-py/data_batch_2 filter=lfs diff=lfs merge=lfs -text
+4.0/4.2GAN/data/cifar-10-batches-py/data_batch_3 filter=lfs diff=lfs merge=lfs -text
+4.0/4.2GAN/data/cifar-10-batches-py/data_batch_4 filter=lfs diff=lfs merge=lfs -text
+4.0/4.2GAN/data/cifar-10-batches-py/data_batch_5 filter=lfs diff=lfs merge=lfs -text
+4.0/4.2GAN/data/cifar-10-batches-py/test_batch filter=lfs diff=lfs merge=lfs -text
